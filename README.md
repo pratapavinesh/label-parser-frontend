@@ -13,24 +13,26 @@ To get a local copy up and running, follow these steps.
 
 ### Installation
 1. Clone the repo:
-```sh
+  ```sh
 git clone https://github.com/pratapavinesh/label-parser-frontend.git
 
-Navigate to the project directory:
-```sh
+2. Navigate to the project directory:
+  ```sh
 cd label-parser-frontend
 
-Install dependencies:
-```sh
+3. Install dependencies:
+  ```sh
 npm install
 
-Start the development server:
-```sh
+4. Start the development server:
+  ```sh
 npm start
 
-Open http://localhost:3000 in your browser to view the app.
-Contributing
+4. Open http://localhost:3000 in your browser to view the app.
+
+
+## Contributing
 Contributions are welcome! Please follow the Contribution Guidelines.
 
-License
+## License
 Distributed under the MIT License. See LICENSE for more information.
