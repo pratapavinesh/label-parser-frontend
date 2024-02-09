@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pratapavinesh/label-parser-frontend/static/css/main.b0e8ba7a.css",
+    "main.js": "/pratapavinesh/label-parser-frontend/static/js/main.8d3cfa4f.js",
+    "static/js/592.bdfb43af.chunk.js": "/pratapavinesh/label-parser-frontend/static/js/592.bdfb43af.chunk.js",
+    "index.html": "/pratapavinesh/label-parser-frontend/index.html",
+    "main.b0e8ba7a.css.map": "/pratapavinesh/label-parser-frontend/static/css/main.b0e8ba7a.css.map",
+    "main.8d3cfa4f.js.map": "/pratapavinesh/label-parser-frontend/static/js/main.8d3cfa4f.js.map",
+    "592.bdfb43af.chunk.js.map": "/pratapavinesh/label-parser-frontend/static/js/592.bdfb43af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0e8ba7a.css",
+    "static/js/main.8d3cfa4f.js"
+  ]
+}
