@@ -1,4 +1,3 @@
-```markdown
 # Label Parser Frontend
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -50,6 +49,3 @@ Contributions are welcome! Please follow the Contribution Guidelines.
 ## License
 
 Distributed under the MIT License. See LICENSE for more information.
-```
-
-This README.md provides clear instructions for setting up the frontend part of your Label Parser application and includes properly formatted Markdown code blocks for the CLI commands.
