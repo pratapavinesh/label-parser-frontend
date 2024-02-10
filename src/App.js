@@ -51,11 +51,22 @@ function App() {
   };
 
   const handleSubmit = () => {
+    
+    // Clear the processed information
+    setProcessedInfo(null);
+
     if (image) {
       handleImageUpload();
     } else {
       setError('Please upload an image first.');
     }
+  };
+
+  const handleRefresh = () => {
+    // Clear the uploaded image and processed information
+    setImage(null);
+    setProcessedInfo(null);
+    setError(null);
   };
 
   return (
@@ -78,9 +89,12 @@ function App() {
         )}
         {image && <img src={URL.createObjectURL(image)} alt="Uploaded" />}
       </div>
+      {image &&
       <div className="submit-button">
         <button onClick={handleSubmit}>Submit</button>
+        <button onClick={handleRefresh}>Refresh</button>
       </div>
+       }
       {loading && <p>Loading...</p>}
       {error && <p className="error">{error}</p>}
       {processedInfo && (
@@ -91,6 +105,8 @@ function App() {
             <li><strong>Composition:</strong> {processedInfo.composition}</li>
             <li><strong>Expiry Date:</strong> {processedInfo.expiryDate}</li>
           </ul>
+
+
         </div>
       )}
     </div>
