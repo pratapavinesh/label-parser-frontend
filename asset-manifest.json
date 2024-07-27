@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/label-parser-frontend/static/css/main.b0e8ba7a.css",
-    "main.js": "/label-parser-frontend/static/js/main.8041d2e7.js",
+    "main.css": "/label-parser-frontend/static/css/main.305e9652.css",
+    "main.js": "/label-parser-frontend/static/js/main.e99d4fb6.js",
     "static/js/592.bdfb43af.chunk.js": "/label-parser-frontend/static/js/592.bdfb43af.chunk.js",
     "index.html": "/label-parser-frontend/index.html",
-    "main.b0e8ba7a.css.map": "/label-parser-frontend/static/css/main.b0e8ba7a.css.map",
-    "main.8041d2e7.js.map": "/label-parser-frontend/static/js/main.8041d2e7.js.map",
+    "main.305e9652.css.map": "/label-parser-frontend/static/css/main.305e9652.css.map",
+    "main.e99d4fb6.js.map": "/label-parser-frontend/static/js/main.e99d4fb6.js.map",
     "592.bdfb43af.chunk.js.map": "/label-parser-frontend/static/js/592.bdfb43af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0e8ba7a.css",
-    "static/js/main.8041d2e7.js"
+    "static/css/main.305e9652.css",
+    "static/js/main.e99d4fb6.js"
   ]
 }
