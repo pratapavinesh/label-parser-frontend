@@ -2,14 +2,14 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
-import './App.css';
 import Dashboard from './pages/Dashboard';
+import './App.css';
 
 function App() {
     const isAuthenticated = () => localStorage.getItem('token'); // Simple auth check
 
     return (
-        <Router>
+        <Router basename="/label-parser-frontend">
             <Routes>
                 <Route path="/signin" element={<SignIn />} />
                 <Route path="/signup" element={<SignUp />} />
