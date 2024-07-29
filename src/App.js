@@ -9,7 +9,7 @@ function App() {
     const isAuthenticated = () => localStorage.getItem('token'); // Simple auth check
 
     return (
-        <Router basename="/label-parser-frontend">
+        <Router>
             <Routes>
                 <Route path="/signin" element={<SignIn />} />
                 <Route path="/signup" element={<SignUp />} />
