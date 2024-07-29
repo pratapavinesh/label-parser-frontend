@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+    <script type="text/javascript">
+      // Redirect to the index.html for all routes
+      var redirectTo = "/label-parser-frontend/";
+      var path = window.location.pathname.replace(redirectTo, "");
+      window.location.href = redirectTo + "#" + path;
+    </script>
+  </head>
+  <body>
+    <h1>Page Not Found</h1>
+    <p>Redirecting...</p>
+  </body>
+</html>
